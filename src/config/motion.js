@@ -61,6 +61,11 @@ export const headContentAnimation = {
     delay: 0.2,
     delayChildren: 0.2,
   },
+  exit: {
+    x: -100 ,
+    // y: 100,
+    transition: { ...transition, delay: 0 },
+  }
 };
 
 export const headContainerAnimation = {

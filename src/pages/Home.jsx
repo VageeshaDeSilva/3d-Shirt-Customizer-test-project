@@ -19,7 +19,7 @@ function Home() {
     <AnimatePresence>
       {snap.intro && (
         <motion.section className="home" {...slideAnimation('left')}>
-          <motion.header> 
+          <motion.header {...headContainerAnimation}> 
             <img
               src="./threejs.png"
               alt="logo"
@@ -32,12 +32,12 @@ function Home() {
               <h1 className="head-text">LET'S <br className="xl:block hidden"/> DO IT.</h1>
             </motion.div>
           </motion.div>
-          <motion.div {...headContentAnimation} className="flex flex-col gap-5">
+          <motion.div {...headContainerAnimation} className="flex flex-col gap-5">
             <p className="max-w-md font-normal text-gray-600">
               Lorem ipsum, <strong>dolor sit amet consectetur</strong> adipisicing elit. Aut aspernatur enim voluptate ex fuga, quasi illum similique cupiditate amet porro.
             </p>
           </motion.div>
-          <motion.div {...headContentAnimation} >
+          <motion.div {...headContainerAnimation} >
             <CustomButton 
               title="Customize It"
               type="filled"
