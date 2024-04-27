@@ -1,5 +1,5 @@
 import AiPicker from "./AiPicker";
-import CanvasSection from "./CanvasSection";
+import CanvasSection from "./canvas/CanvasSection";
 import ColorPicker from "./ColorPicker";
 import CustomButton from "./CustomButton";
 import FilePicker from "./FilePicker";

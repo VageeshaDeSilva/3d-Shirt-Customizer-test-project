@@ -1,5 +1,5 @@
 import './App.css'
-import CanvasSection from './components/CanvasSection'
+import CanvasSection from './components/canvas/CanvasSection'
 import Home from './pages/Home'
 import Customizer from './pages/Customizer'
 
